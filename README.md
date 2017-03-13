@@ -26,9 +26,13 @@ Your new type should have the following methods defined on it:
 
 Second, you should define a new type DynamicArrayIterator which can be used to traverse an array either forwards and backwards based on the value of the private properties. This type will also need to be templated to work fully with the other one.
 You should have the following private properties:
+
 • int currentPosition
+
 • DynamicArray* array
+
 • int direction - This is used to store how to move each time. A value of 1 indicates it is moving forward and a value of -1 indicates it is moving backwards. This value never changes after its initialization.
+
 
 Then, write the following methods/overloaded operators
 1. A constructor that takes as input a pointer to the DynamicArray, the initial current position, and the direction it is moving.
