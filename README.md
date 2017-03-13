@@ -22,7 +22,11 @@ You should have the following private properties:
 
 Then, write the following methods/overloaded operators
 1. A constructor that takes as input a pointer to the DynamicArray, the initial current position, and the direction it is moving.
+
 2. Overload the * operator so that values can be set and fetched.
+
 3. Overload the increment operator. For simplicity, make this a void function so that it does not matter if you do pre or post fix –though you will need to ensure you call it properly from your main method. Depending on the direction of the iterator, this should either increase or decrease the current position.
+
 4. Overload the == operator to allow a comparison with another DynamicArrayIterator.
+
 5. Overload the != operator to allow a comparison with another DynamicArrayIterator.
