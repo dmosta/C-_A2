@@ -1,5 +1,4 @@
-# C++_A2
-Implementing Vector class with iterators
+# C++_A2 (Implementing Vector class with iterators)
 
 First define a new type DynamicArray. The type should be templated, so that it can work with all types.
 Your new type should have the following methods defined on it:
